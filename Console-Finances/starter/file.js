@@ -34,11 +34,14 @@
 var allMonths = finances.length;
 var avgChange = netChange /allMonths
 
+
+var avgChangeRounded = Math.round(avgChange)
+
 analysis = `Financial Analysis
 ------------------------
 Total Months: ${allMonths}
 Total: $${total}
-Average Change: $${avgChange}
+Average Change: $${avgChangeRounded}
 Greatest Increase in profits : ${greatestMonthInc} ($${greatestIncrease})
 Greatest Decrease in profits:  ${greatestMonthDec} ($${greatestDescrease})` ;
 
