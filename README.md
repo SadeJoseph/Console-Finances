@@ -26,5 +26,7 @@ The data in the browser should be presented like the following:
 
 ## Screenshot
 
+(Console-Finances/starter/assets/Screen Shot 2023-02-16 at 19.24.19.png)
+
 
 ## Live Application
