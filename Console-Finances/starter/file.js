@@ -1,11 +1,13 @@
 //global variables
  var total=0
- var greatestIncrease = 0
- var greatestDescrease = 0 
+ var greatestIncrease = 0;
+ var greatestDescrease = 0 ;
 
  
- var netChange=0
- var change =0 
+ var netChange=0;
+ var change =0 ;
+
+ var analysis= ''
 
 
  for (var main_index =0; main_index <finances.length;main_index ++) {
@@ -31,3 +33,13 @@
 
 var allMonths = finances.length;
 var avgChange = netChange /allMonths
+
+analysis = `Financial Analysis
+------------------------
+Total Months: ${allMonths}
+Total: $${total}
+Average Change: $${avgChange}
+Greatest Increase in profits : ${greatestMonthInc} ($${greatestIncrease})
+Greatest Decrease in profits:  ${greatestMonthDec} ($${greatestDescrease})` ;
+
+console.log(analysis);
