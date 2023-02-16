@@ -15,7 +15,7 @@
     var netProfitLoss = finances[main_index] [1]
 // find greatest profit decrease 
     if (netProfitLoss <greatestDescrease) {
-        greatestIncrease =netProfitLoss;
+        greatestDescrease =netProfitLoss;
         var greatestMonthDec = finances [main_index][0]
     }
     // to find highest prof increase 
@@ -23,6 +23,7 @@
         greatestIncrease =netProfitLoss;
         var greatestMonthInc =finances [main_index][0]
     }
+
     var previousdifference =0
     var change = netProfitLoss - previousdifference
     previousdifference =change
