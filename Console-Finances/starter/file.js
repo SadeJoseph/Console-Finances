@@ -7,8 +7,6 @@
  var netChange=0
  var change =0 
 
- var totalMonths
-
 
  for (var main_index =0; main_index <finances.length;main_index ++) {
     
@@ -30,3 +28,6 @@
     netChange +=change 
     total+=netProfitLoss
  }
+
+var allMonths = finances.length;
+var avgChange = netChange /allMonths
