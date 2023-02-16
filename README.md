@@ -24,9 +24,8 @@ The data in the browser should be presented like the following:
   Greatest Decrease in Profits/Losses: Sep-2013 ($-2196167)
   ```
 
-## Screenshot
-
-(Console-Finances/starter/assets/Screen Shot 2023-02-16 at 19.24.19.png)
 
 
 ## Live Application
+
+
