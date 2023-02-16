@@ -13,7 +13,7 @@ An task to write the JavaScript code that is able to analyse the records and cal
 - Greatest increase in profits 
 - Greatest decrease in losses
 
-![screenshot] (Console-Finances/starter/assets/Screen Shot 2023-02-16 at 19.24.19.png)
+![Screenshot](./Console-Finances/starter/assets/Screen%20Shot%202023-02-16%20at%2019.24.19.png)
 
 
 ## Live Application
